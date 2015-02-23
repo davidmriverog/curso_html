@@ -1,0 +1,24 @@
+<html>
+	<head>
+		<title>Formularios Avanzados Listas optgroup</title>
+	</head>
+	<body>
+		<form id="formulario" method="post" action=""> 
+			<label for="programas">Programas Seleccionados</label>
+			<br/>
+			<select id="programas" name="programas"><!--- LISTA GENERAL-->
+				<optgroup label="Sistemas Operativos"><!--- SUB LISTA SO-->
+					<option value="Windows" selected="selected">Windows</option>
+					<option value="Linux">Linux</option>
+					<option value="Mac">Mac</option>
+					<option value="Otro">Otro</option>
+				</optgroup>
+				<optgroup label="Navegadores"><!--- SUB LISTA NAVEGADORES-->
+					<option value="GoogleChorme" selected="selected">Google Chrome</option>
+					<option value="IE">Internet Explorer</option>
+					<option value="firefox">Mozilla Firefox</option>
+				</optgroup>
+			</select>
+		</form>
+	</body>
+</html>

@@ -1,0 +1,46 @@
+<html>
+	<head>
+		<title>Ejercio Prueba II</title>
+	</head>
+	<body>
+		<form action="" id="formulario" method="post">
+		<h1>Informaci&oacute;n del Producto</h1>
+		<fieldset>
+			<legend>Datos Personales:</legend>
+			<label for="nombre">Nombre:</label>
+			<br/>
+			<input type="text" id="nombre" name="nombre" value="" size="50"/>
+			<br/>
+			<label for="descripcion">Descripci&oacute;n</label>
+			<br/>
+			<textarea id="descripcion" name="descripcion" cols="40" rows="6"></textarea>
+			<br/>
+			Foto
+			<input type="file" name="foto"/>
+			<br/>
+			<input type="checkbox" name="contador" value="contador"/>Contador de Visitas
+			<br/>
+		</fieldset>
+		<fieldset>
+			<legend>Datos Econ&iacute;micos:</legend>
+			<label for="precio">Precio</label>
+			<input type="text" id="precio" name="precio" value="" size="10"/>Bsf &nbsp;&nbsp;
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<label for="impuestos">Impuestos:</label>
+			<select id="impuestos" name="impuestos">
+              <option value="" selected="selected">4%</option>
+              <option value="7">7%</option>
+              <option value="12">12%</option>
+              <option value="25">25%</option>
+            </select>
+			<br/>
+			<label for="promo">Promoci&oacute;n</label>
+			<br/>
+			<input type="radio" name="promo" value="ninguno" checked="checked"/>Ninguno<br/>
+			<input type="radio" name="promo" value="gratis"/>Transporte Gratuito<br/>
+			<input type="radio" name="promo" value="descuento"/>Descuento del 5%<br/>
+		</fieldset>
+		</form>
+	    
+	</body>
+</html>
